@@ -1,0 +1,36 @@
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 编译产物
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试文件
+*.test
+*.out
+
+# IDE 配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Go特定文件
+/vendor/
+/go.work
+
+# 日志文件
+*.log
+
+# 临时文件
+/tmp/
+.tmp/
+*.tmp
